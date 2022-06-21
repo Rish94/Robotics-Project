@@ -1,0 +1,77 @@
+body{
+    background-color: rgb(10, 0, 31);
+    border: 10px white solid;
+    width: 1000px;
+    height: 1200px;
+    padding: 20px;
+    margin: auto;
+}
+
+
+header{
+    border: 5px solid rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+    
+}
+header>h1{
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace ;
+    font-size: 250%;
+}
+
+
+header>a{
+    color: aliceblue;
+    padding: 10px;
+    text-decoration: none;
+}
+
+header>a:hover{
+    color: aqua;
+}
+
+
+
+
+
+section{
+    border: 2px white;
+    width: 1000px;
+    height: 750px;
+    margin: auto;
+    margin-top: 100px;
+    background-image: linear-gradient(to bottom,rgb(255, 255, 255),rgb(255, 0, 0));
+    
+}
+
+section>img{
+    margin: 80px;
+    margin-top: 10px;
+    width: 850px;
+    height: 600px;
+}
+
+section>em{
+    font-size: 30px;
+    margin-left: 30%;
+    color: aliceblue;
+    background: transparent;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+}
+
+.footer{
+    width: 850px;
+    height: 5px;
+    padding: 20px;
+    margin-top: 150px;
+    border: 2px white solid;
+}
+
+.footer>a{
+    padding-left: 40%;
+    color: aliceblue;
+    font-size: 110%;
+    text-decoration: none;
+}

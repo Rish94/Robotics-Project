@@ -1,0 +1,74 @@
+/*type selectors*/
+
+/* h1{
+    color: rgb(96, 6, 6);
+} */
+
+
+/*
+
+use # for id
+use . for class
+
+agr koi fix krna ho to use !important
+
+*/
+
+
+
+/*Universal selector sare elements pr follow hoga*/
+
+/* *{
+    color: brown;
+    background-color: aquamarine;
+} */
+
+
+/*Specific selector using class diff sare div ko ek colour me krna
+then name div to alag se krke dekha class ke through*/
+
+/* div{
+    color: rgb(0, 0, 0);
+}
+
+.Name{
+    color: rgb(5, 22, 255);
+} */
+
+
+/*attribute selector*/
+
+/* body{
+    color: coral;
+} */
+
+/* body[type="message"]{
+    color: rgb(255, 1, 1);
+} */
+
+/* comma lgake bhe select kr skte he like this
+
+div,h1,p{
+}
+*/
+
+
+
+/* child selector */
+/*
+div > p{
+
+    division ke andr paragraph child hoga
+}
+
+
+
+
+list under me list ko krna changes (decendent selector)
+
+li li{
+
+    li ke andr jitne li he under changes
+}
+
+*/
