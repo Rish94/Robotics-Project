@@ -1,0 +1,17 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    color: white;
+    margin: 10px;
+
+}
+
+body{
+    display: flex;
+    border: 2px solid crimson;
+    padding: 10px;
+    justify-content: space-between;
+    width: 500px;
+    height: 500px;
+}
