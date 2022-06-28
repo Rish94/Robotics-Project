@@ -1,4 +1,6 @@
 
+//  <!-- Para Generator -->
+
 const input = document.getElementById("noofwords");
 const container = document.querySelector(".container");
 
